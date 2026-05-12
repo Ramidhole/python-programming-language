@@ -1,1 +1,22 @@
 basic setup python
+open google /python org/download latest version lf python 
+
+Python is a high-level, interpreted, general-purpose programming language created by Guido van Rossum in 1991. It focuses on code readability and simplicity — you can do more with fewer lines of code.
+
+  Key Features of Python
+Easy to Read & Write — syntax is close to plain English
+
+Interpreted — runs line by line, no compilation needed
+
+Dynamically Typed — no need to declare variable types
+
+Object-Oriented — supports classes and objects
+
+Multi-paradigm — supports OOP, functional, and procedural styles
+
+Huge Standard Library — batteries included (math, os, json, etc.)
+
+Platform Independent — runs on Windows, Mac, Linux.
+
+Open Source & Free
+Large Community — tons of third-party libraries (NumPy, Django, etc.)
