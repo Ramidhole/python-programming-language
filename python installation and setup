@@ -20,3 +20,41 @@ Platform Independent — runs on Windows, Mac, Linux.
 
 Open Source & Free
 Large Community — tons of third-party libraries (NumPy, Django, etc.)
+
+1: What is a Module?
+
+A module is a file with the .py extension that contains Python code — functions, variables, or classes — that you can use in another Python file.
+
+Why use modules?
+Instead of writing the same code again and again, you write it once in a module and import it wherever you need it.
+
+PART 2: Types of Modules
+
+Type 1 — Built-in Modules
+
+These come pre-installed with Python. You don't need to install anything.
+
+Step 1 — Import the module using the import keyword.
+Step 2 — Use its functions with dot notation: modulename.function()
+
+import math
+print(math.sqrt(25))   # Output: 5.0
+print(math.pi)         # Output: 3.141592653589793
+
+import random
+print(random.randint(1, 10))   # Output: any number between 1 and 10
+
+
+What is pip?
+
+pip stands for "Pip Installs Packages".
+It is a command-line tool that comes automatically installed with Python. It is used to download and install third-party Python packages from the internet.
+All these packages are stored on a website called PyPI — Python Package Index — available at pypi.org. Think of PyPI as a big store and pip as the tool you use to shop from it.
+
+How to Check if pip is Installed
+Open your terminal or command prompt and type:pip --version
+pip install package_name
+pip install requests
+
+import requests
+print("requests installed successfully")
